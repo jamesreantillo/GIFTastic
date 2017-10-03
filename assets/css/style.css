@@ -1,0 +1,71 @@
+body:before {
+  background: url("../images/jordan.jpeg") fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block; 
+  content:""; 
+  position: absolute; 
+  z-index:-1;
+  top:0; 
+  left: 0; 
+  right: 0; 
+  height: 250%;
+  opacity:.7;
+}
+.btn {
+  margin: 5px;
+}
+.giphy {
+  display: inline-block;
+  margin-right: 27px;
+  margin-bottom: 60px;
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+.navbar {
+  color: #fff;
+}
+.playerGifs-main {
+  margin-top: 20px;
+}
+.jumbotron {
+  text-align: center;
+  color: #fff;
+}
+.playerButtons {
+  text-align: center;
+  margin-top: 15px;
+}
+label {
+  margin-bottom: 15px;
+}
+#inputPlayer {
+  margin-bottom: 13px;
+}
+.ratings {
+  color: #fff;
+  border: 1px solid black;
+  background: black;
+  box-shadow: 2px 2px 2px 2px #4285F4;
+}
+.navbar {
+  color: #fff;
+  border: 1px solid black;
+  background: black;
+  width: 50%;
+  margin-left: 265px;
+  box-shadow: 2px 2px 2px 2px #4285F4;
+}
+.jumbotron {
+  background: url("../images/lebron.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block; 
+  image-rendering: crisp-edges;
+}

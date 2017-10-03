@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NBA PLAYERS</title>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- header -->
+  <div class="container">
+    <div class="row">
+      <div class="jumbotron col-md-12">
+        <h1>NBA Players</h1>
+      </div>
+    </div>
+  </div>
+
+<!-- side panel for search -->
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-6">
+        <div class="card bg-light">
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label>Enter Player Name</label>
+                <input type="text" class="form-control" placeholder="Enter player" id="inputPlayer">
+                <input type="submit" id="addPlayer" class="btn btn-default">
+                
+              </div>
+          </div>          
+        </div>
+      </div>
+
+<!-- side panel for buttons -->
+      
+      <div class="col-md-6">
+        <div class="card bg-light">
+          <div class="card header">
+            <p class="playerButtons">Player buttons</p>
+          </div>
+          <div class="card-body">
+            <div class="col-md-12">
+              <div class="playerButton"> 
+              </div>
+            </div> 
+          </div>          
+        </div>
+      </div>
+
+
+      <!-- <div class="col-md-6">
+        <p>Player Gifs</p>
+        <div class="playerGifs">
+
+          
+        </div>              
+      </div> -->
+
+<!-- wrapper for gifs -->
+   <div class="container">
+    <div class="row">
+      <div class="col-md-12 playerGifs-main">
+        <p class="navbar navbar-light justify-content-center">Gifs</p>
+        <div class="playerGifs">  
+        </div>     
+      </div>   
+    </div>
+   </div>
+        
+    </div>
+  </div>
+
+
+
+
+        
+<script type="text/javascript" src="assets/javascript/main.js"></script> 
+</body>
+</html>
