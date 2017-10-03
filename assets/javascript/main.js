@@ -5,7 +5,7 @@ var giftastic = {
 
   players : ["Micheal Jordan", "Kobe Bryant", "Allen Iverson", "Vince Carter", "Magic Johnson", "Larry Bird"],
   
-  // adds button and pushes the userinput to the array;
+  // adds button  
   playersButton: function () {
     $(".playerButton").empty();
     for (var i = 0; i < giftastic.players.length; i++) {
@@ -63,7 +63,7 @@ var giftastic = {
   }
 };
 
-
+// pushes the userinput to the array;
 $("#addPlayer").on("click", function(event) {
     event.preventDefault();
     var input = $("#inputPlayer").val().trim();
